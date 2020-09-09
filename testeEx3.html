@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            Demonstrativo de Salário
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="testeEx3.css">
+    </head>
+    <body>
+        <header>
+            Demonstrativo de Salário
+        </header>
+        <br>
+        <section>
+            <div align="left">
+            <p>
+                <font>Digite <b>AQUI</b> a Quantidade de Horas Trabalhadas (por Dia):</font> <input type="text" name="qht" size="2" id="qht" min="0" maxlength="2">
+            </p>
+            <p>
+                <font>Digite <b>AQUI</b> a Quantidade de Dias Trabalhados na Semana:</font> <input type="text" name="qdt" size="2" id="qdt" min="0" maxlength="1">
+            </p>
+            <p>
+                <font>Digite <b>AQUI</b> o Valor da Hora Trabalhada :</font> <input type="text" name="vht" size="6" id="vht" min="0" maxlength="5">
+            </p>
+            <p>
+                <font>Digite <b>AQUI</b> a Porcentagem de Desconto para o INSS (5 a 15%):</font> <input type="text" name="inss" size="2" id="inss" min="0" maxlength="2">
+            </p>
+            <p>
+                <input type="button" name="btn_verificar" value="Verificar Salário" onclick="verificar()">
+            </p>
+        </div>
+        
+        </section>       
+        <br>
+        <section>
+        <div align="center">
+            <footer>
+                <p>&copy; Sistema Salário - status [FUNCIONANDO]</p>
+            </footer>
+        </div>
+        </section>
+        <script src="codex03.js"></script>
+    </body>
+</html>
